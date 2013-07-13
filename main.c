@@ -34,12 +34,10 @@ int main(int argc, char *argv[])
 		//Print answers
 		PrintOut(x, y);
 	}
-	else
-	{
-		//Carry on asking for numbers
-		while (1 == 1)
+	else if (argc == 1)
 		{	
-			if (argc == 1)
+			//Carry on asking for numbers
+			while (1 == 1)
 			{
 				//Get input
 				printf("Enter A: ");
@@ -58,6 +56,9 @@ int main(int argc, char *argv[])
 			//Print answers
 			PrintOut(x, y);
 		}
+	else
+	{
+		printf("Couldn't undertand arguments given\n");
 	}
 }
 
