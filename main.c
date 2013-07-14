@@ -46,15 +46,14 @@ int main(int argc, char *argv[])
 				b = GetFloat();
 				printf("Enter C: ");
 				c = GetFloat();
-
-			}
 			
-			//Work out answers
-			float x = WorkOutx(a, b, c);
-			float y = WorkOuty(a, b, c);
+				//Work out answers
+				float x = WorkOutx(a, b, c);
+				float y = WorkOuty(a, b, c);
 
-			//Print answers
-			PrintOut(x, y);
+				//Print answers
+				PrintOut(x, y);
+			}
 		}
 	else
 	{
